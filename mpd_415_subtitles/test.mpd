@@ -18,7 +18,7 @@
         </AdaptationSet>
         <AdaptationSet id="3" group="3" contentType="text" lang="nl" mimeType="application/mp4" codecs="stpp" startWithSAP="1">
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="caption" />
-            <SegmentTemplate timescale="1000" initialization="https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_415_subtitles/live-$RepresentationID$.dash" media="https://httpstat.us/415?$RepresentationID$-$Number$.dash" duration="191472" startNumber="0" timescale="48000"/>
+            <SegmentTemplate initialization="https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_415_subtitles/live-$RepresentationID$.dash" media="https://httpstat.us/415?$RepresentationID$-$Number$.dash" duration="191472" startNumber="0" timescale="48000"/>
             <Representation id="text_track_0_dut=1000" bandwidth="1000"/>
         </AdaptationSet>
     </Period>
