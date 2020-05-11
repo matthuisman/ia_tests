@@ -18,7 +18,7 @@
         </AdaptationSet>
         <AdaptationSet id="2" group="3" contentType="text" lang="nl" mimeType="application/mp4" codecs="stpp" startWithSAP="1">
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="caption" />
-            <SegmentTemplate timescale="1000" initialization="https://httpstat.us/200?$RepresentationID$.dash" media="https://httpstat.us/415?$RepresentationID$-$Time$.dash">
+            <SegmentTemplate timescale="1000" initialization="https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_415_subtitles/live-$RepresentationID$.dash" media="https://httpstat.us/415?live-$RepresentationID$-$Time$.dash">
                 <!-- 2020-05-11T02:45:34.400000Z / 1589165134 - 2020-05-11T03:00:34.880000Z -->
                 <SegmentTimeline>
                     <S t="1589165134400" d="1920" r="468" />
