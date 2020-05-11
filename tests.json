@@ -2,6 +2,6 @@
     "hls_aes128": {
         "inputstreamaddon": "inputstream.adaptive",
         "inputstream.adaptive.manifest_type": "hls",
-        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128/master.m3u8",
+        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128/master.m3u8"
     }
 }
