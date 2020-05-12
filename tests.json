@@ -1,7 +1,29 @@
 {
-    "hls_aes128": {
+    "hls_aes128_each_segment": {
         "inputstreamaddon": "inputstream.adaptive",
         "inputstream.adaptive.manifest_type": "hls",
-        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128/master.m3u8"
+        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128_each_segment/master.m3u8"
+    },
+    "hls_widevine": {
+        "inputstreamaddon": "inputstream.adaptive",
+        "inputstream.adaptive.manifest_type": "hls",
+        "inputstream.adaptive.license_type": "com.widevine.alpha",
+        "inputstream.adaptive.license_key": "https://cwip-shaka-proxy.appspot.com/no_auth||R{SSM}|",
+        "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8"
+    },
+    "mpd_415_subtitles": {
+        "inputstreamaddon": "inputstream.adaptive",
+        "inputstream.adaptive.manifest_type": "mpd",
+        "url": "https://live-radio-cf.lwc.vrtcdn.be/groupa/live/d6fdec5d-5d67-4cc3-9f8c-e3e8993c8ee4/live.isml/.mpd"
+    },
+    "mpd_multi_vid_sets (lowest first)": {
+        "inputstreamaddon": "inputstream.adaptive",
+        "inputstream.adaptive.manifest_type": "mpd",
+        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_multi_vid_sets/lowest_first.mpd"
+    },
+    "mpd_multi_vid_sets (highest first)": {
+        "inputstreamaddon": "inputstream.adaptive",
+        "inputstream.adaptive.manifest_type": "mpd",
+        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_multi_vid_sets/highest_first.mpd"
     }
 }
