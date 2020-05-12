@@ -1,3 +1,3 @@
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128_each_segment/sub.m3u8
+https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/playlist_v-0576p-1400k-libx264.mp4.m3u8
