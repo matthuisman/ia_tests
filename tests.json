@@ -25,5 +25,10 @@
         "inputstreamaddon": "inputstream.adaptive",
         "inputstream.adaptive.manifest_type": "mpd",
         "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_multi_vid_sets/highest_first.mpd"
+    },
+    "hls_direct_substream": {
+        "inputstreamaddon": "inputstream.adaptive",
+        "inputstream.adaptive.manifest_type": "hls",
+        "url": "https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_aes128_each_segment/sub.m3u8"
     }
 }
