@@ -2,7 +2,7 @@
 #EXT-X-VERSION:6
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio/ec-3",LANGUAGE="und",NAME="Unknown",AUTOSELECT=YES,DEFAULT=YES,URI="http://media.developer.dolby.com/DolbyVision_Atmos/profile5_HLS/audio/und/ec-3/media.m3u8"
 
-#EXT-X-STREAM-INF:AUDIO="audio/ec-3",AVERAGE-BANDWIDTH=15824973,BANDWIDTH=23816266,VIDEO-RANGE=PQ,CODECS="dvh1.05.06,ec-3",RESOLUTION=3840x2160 #FRAME-RATE=59.94
+#EXT-X-STREAM-INF:AUDIO="audio/ec-3",AVERAGE-BANDWIDTH=15824973,BANDWIDTH=23816266,VIDEO-RANGE=PQ,CODECS="dvh1.05.06,ec-3",RESOLUTION=3840x2160
 http://media.developer.dolby.com/DolbyVision_Atmos/profile5_HLS/video/dvh1/1/media.m3u8
 #EXT-X-STREAM-INF:AUDIO="audio/ec-3",AVERAGE-BANDWIDTH=15775609,BANDWIDTH=23108678,VIDEO-RANGE=PQ,CODECS="dvh1.05.04,ec-3",RESOLUTION=1920x1080
 http://media.developer.dolby.com/DolbyVision_Atmos/profile5_HLS/video/dvh1/2/media.m3u8
