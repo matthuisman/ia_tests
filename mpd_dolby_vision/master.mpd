@@ -1,120 +1,15 @@
 <?xml version="1.0" ?>
 <MPD mediaPresentationDuration="PT2M55.008S" minBufferTime="PT2.00S" profiles="'live'" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
   <BaseURL>http://media.developer.dolby.com/DolbyVision_Atmos/profile5_HLS/</BaseURL>
-  <!-- Created with Bento4 mp4-dash.py, VERSION=1.8.0-621 -->
   <Period>
-    <!-- Video -->
     <AdaptationSet maxHeight="2160" maxWidth="3840" mimeType="video/mp4" minHeight="1080" minWidth="1920" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="60000">
+      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000">
         <SegmentTimeline>
-          <S d="120120" r="86"/>
-          <S d="50050"/>
+          <S t="0" r="88" d="2002"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation bandwidth="15134071" codecs="dvhe.08.09" frameRate="60000/1001" height="2160" id="video/dvh1/1" scanType="progressive" width="3840"/>
       <Representation bandwidth="15094138" codecs="dvhe.08.05" frameRate="60000/1001" height="1080" id="video/dvh1/2" scanType="progressive" width="1920"/>
-    </AdaptationSet>	
-    <!-- <AdaptationSet maxHeight="2160" maxWidth="3840" mimeType="video/mp4" minHeight="1080" minWidth="1920" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="60000">
-        <SegmentTimeline>
-          <S d="120120" r="86"/>
-          <S d="50050"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="15134071" codecs="hev1.2.4.L153.b0" frameRate="60000/1001" height="2160" id="video/hev1/1" scanType="progressive" width="3840"/>
-      <Representation bandwidth="15094138" codecs="hev1.2.4.L153.b0" frameRate="60000/1001" height="1080" id="video/hev1/2" scanType="progressive" width="1920"/>
-    </AdaptationSet> -->
-    <!-- Audio -->
-    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="48000">
-        <SegmentTimeline>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768" r="1"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="95232"/>
-          <S d="96768"/>
-          <S d="39936"/>
-          <S d="142848"/>
-          <S d="6144"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="48000" bandwidth="641396" codecs="ec-3" id="audio/und/ec-3">
-        <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
-		<SupplementalProperty schemeIdUri="tag:dolby.com,2018:dash:EC3_ExtensionType:2018" value="JOC" />
-		<SupplementalProperty schemeIdUri="tag:dolby.com,2018:dash:EC3_ExtensionComplexityIndex:2018" value="16" />		
-      </Representation>
     </AdaptationSet>
   </Period>
 </MPD>
