@@ -1,3 +1,0 @@
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_dolby_vision/master.mpd
