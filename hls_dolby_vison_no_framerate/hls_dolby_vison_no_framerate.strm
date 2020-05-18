@@ -1,3 +1,0 @@
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_dolby_vison_no_framerate/master.m3u8
