@@ -1,3 +1,4 @@
+#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://media.developer.dolby.com/DolbyVision_Atmos/profile5_HLS/master.m3u8
