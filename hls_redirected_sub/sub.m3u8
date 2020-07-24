@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:6
+#EXT-X-MEDIA-SEQUENCE:2744763
+#EXT-X-KEY:METHOD=AES-128,URI="/matthuisman/ia_tests/master/hls_aes128_single_key/my.key"
+#EXTINF:6.000,
+/matthuisman/ia_tests/master/hls_aes128_single_key/index_17_2744763.ts
+#EXTINF:6.000,
+/matthuisman/ia_tests/master/hls_aes128_single_key/index_17_2744764.ts
+#EXT-X-ENDLIST
