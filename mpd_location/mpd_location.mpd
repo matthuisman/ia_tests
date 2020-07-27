@@ -4,7 +4,6 @@
    <ProgramInformation>
       <Title>Media Presentation Description from DASH-IF live simulator</Title>
    </ProgramInformation>
-   <BaseURL>https://example.com/</BaseURL>
 <Period id="p0" start="PT0S">
       <AdaptationSet contentType="audio" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
