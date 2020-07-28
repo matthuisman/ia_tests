@@ -1,4 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-http://127.0.0.1/mpd_location.mpd
+https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_location/mpd_location.mpd
