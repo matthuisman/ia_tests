@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" maxSegmentDuration="PT2S" minBufferTime="PT20S" minimumUpdatePeriod="PT20S" profiles="urn:mpeg:dash:profile:isoff-live:2011,http://dashif.org/guidelines/dash-if-simple" timeShiftBufferDepth="PT5M" type="dynamic" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
-   <Location>https://b028.wpc.azureedge.net/80B028/Samples/a38e6323-95e9-4f1f-9b38-75eba91704e4/5f2ce531-d508-49fb-8152-647eba422aec.ism/Manifest(format=mpd-time-csf)</Location>
-   <ProgramInformation>
-      <Title>Media Presentation Description from DASH-IF live simulator</Title>
-   </ProgramInformation>
-   <BaseURL>https://dash.akamaized.net/dash264/TestCasesIOP33/Content/</BaseURL>
-   <Period id="p0" start="PT0S">
-      <AdaptationSet contentType="audio" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-         <BaseURL>audio/mp4a/</BaseURL>
-         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
-         <SegmentTemplate duration="2" initialization="2second/tears_of_steel_1080p_audio_32k_dash_track1_init.mp4" media="2second/tears_of_steel_1080p_audio_32k_dash_track1_$Number$.mp4" startNumber="1" />
-         <Representation audioSamplingRate="48000" bandwidth="48000" codecs="mp4a.40.2" id="5">
-            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-         </Representation>
-      </AdaptationSet>
-      <AdaptationSet contentType="video" maxFrameRate="60/2" maxHeight="360" maxWidth="640" mimeType="video/mp4" minHeight="360" minWidth="640" par="16:9" segmentAlignment="true" startWithSAP="1">
-         <BaseURL>video/h264/</BaseURL>
-         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
-         <SegmentTemplate duration="2" initialization="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_init.mp4" media="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_$Number$.m4s" startNumber="1" />
-         <Representation bandwidth="300000" codecs="avc1.640028" frameRate="60/2" height="360" id="1" sar="1:1" width="640" />
-      </AdaptationSet>
-   </Period>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="urn:mpeg:dash:schema:mpd:2011"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+    profiles="urn:mpeg:dash:profile:isoff-live:2011"
+    type="dynamic"
+    availabilityStartTime="1970-01-01T00:00:00Z"
+    publishTime="2019-07-06T19:17:04"
+    minimumUpdatePeriod="PT10S"
+    suggestedPresentationDelay="PT10S"
+    minBufferTime="PT10S">
+    <Location>http://livesim.dashif.org/livesim/testpic_2s/Manifest.mpd</Location>
 </MPD>
