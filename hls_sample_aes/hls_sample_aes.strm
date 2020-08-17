@@ -1,4 +1,7 @@
 #KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.testing.manifest_type=hls
 https://test-streams.mux.dev/bbbAES/playlists/sample_aes/index.m3u8

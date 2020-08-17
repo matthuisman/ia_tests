@@ -1,6 +1,11 @@
 #KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.testing.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.testing.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://widevine-proxy.appspot.com/proxy||R{SSM}|
+#KODIPROP:inputstream.adaptive.testing.license_key=https://widevine-proxy.appspot.com/proxy||R{SSM}|
 https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_widevine_decrypt_failed/master.mpd
