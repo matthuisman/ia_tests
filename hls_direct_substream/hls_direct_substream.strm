@@ -1,7 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.testing.manifest_type=hls
 https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/playlist_v-0576p-1400k-libx264.mp4.m3u8

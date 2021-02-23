@@ -1,11 +1,6 @@
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.testing.manifest_type=hls
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.testing.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://cwip-shaka-proxy.appspot.com/no_auth||R{SSM}|
-#KODIPROP:inputstream.adaptive.testing.license_key=https://cwip-shaka-proxy.appspot.com/no_auth||R{SSM}|
 https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8

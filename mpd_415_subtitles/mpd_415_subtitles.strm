@@ -1,7 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.testing.manifest_type=mpd
 https://live-radio-cf.lwc.vrtcdn.be/groupa/live/d6fdec5d-5d67-4cc3-9f8c-e3e8993c8ee4/live.isml/.mpd

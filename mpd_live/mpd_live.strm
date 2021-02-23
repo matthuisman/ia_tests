@@ -1,7 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream=inputstream.adaptive.testing
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstreamaddon=inputstream.adaptive.testing
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.testing.manifest_type=mpd
 http://livesim.dashif.org/livesim/segtimeline_1/testpic_2s/Manifest.mpd
