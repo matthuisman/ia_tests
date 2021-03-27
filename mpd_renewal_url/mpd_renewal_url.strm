@@ -2,5 +2,5 @@
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.media_renewal_url=plugin://plugin.video.renewal.url/
-#KODIPROP:inputstream.adaptive.media_renewal_time=2
+#KODIPROP:inputstream.adaptive.media_renewal_time=1
 https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_renewal_url/mpd_renewal_url.mpd
