@@ -11,17 +11,17 @@
   <AdaptationSet id="1" segmentAlignment="true" group="1" maxWidth="1920" maxHeight="1080" maxFrameRate="24" par="16:9" lang="eng">
    <BaseURL>video/h264/</BaseURL>
    <Representation id="1" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="999120">
-    <SegmentTemplate timescale="12288" media="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_$Number$?t=$Time$.m4s" startNumber="1" duration="24576" initialization="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="0"/>
+    <SegmentTemplate timescale="12288" media="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="1" duration="24576" initialization="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_init.mp4" presentationTimeOffset="0"/>
    </Representation>
    <Representation id="2" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="2003095">
-    <SegmentTemplate timescale="12288" media="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_$Number$?t=$Time$.m4s" startNumber="1" duration="24576" initialization="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="0"/>
+    <SegmentTemplate timescale="12288" media="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="1" duration="24576" initialization="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_init.mp4" presentationTimeOffset="0"/>
    </Representation>
   </AdaptationSet>
   <AdaptationSet id="2" segmentAlignment="true" lang="eng">
    <BaseURL>audio/mp4a/</BaseURL>
    <Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" startWithSAP="1" bandwidth="34189">
     <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-    <SegmentTemplate timescale="48000" media="2second/tears_of_steel_1080p_audio_32k_dash_track1_$Number$.mp4?t=$Time$" startNumber="1" duration="95232" initialization="2second/tears_of_steel_1080p_audio_32k_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="0"/>
+    <SegmentTemplate timescale="48000" media="2second/tears_of_steel_1080p_audio_32k_dash_track1_$Number$.mp4" startNumber="1" duration="95232" initialization="2second/tears_of_steel_1080p_audio_32k_dash_track1_init.mp4" presentationTimeOffset="0"/>
    </Representation>
   </AdaptationSet>
  </Period>
@@ -31,17 +31,17 @@
   <AdaptationSet id="1" segmentAlignment="true" maxWidth="1920" maxHeight="1080" maxFrameRate="24" par="16:9" lang="eng">
    <BaseURL>video/h264/</BaseURL>
    <Representation id="1" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="1013045">
-    <SegmentTemplate timescale="12288" media="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="12288" initialization="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="737280"/>
+    <SegmentTemplate timescale="12288" media="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="12288" initialization="1000k/1second/tears_of_steel_1080p_1000k_h264_24_dash_track1_init.mp4" presentationTimeOffset="737280"/>
    </Representation>
    <Representation id="2" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="2020878">
-    <SegmentTemplate timescale="12288" media="2000k/1second/tears_of_steel_1080p_2000k_h264_24_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="12288" initialization="2000k/1second/tears_of_steel_1080p_2000k_h264_24_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="737280"/>
+    <SegmentTemplate timescale="12288" media="2000k/1second/tears_of_steel_1080p_2000k_h264_24_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="12288" initialization="2000k/1second/tears_of_steel_1080p_2000k_h264_24_dash_track1_init.mp4" presentationTimeOffset="737280"/>
    </Representation>
   </AdaptationSet>
   <AdaptationSet id="2" segmentAlignment="true" lang="eng">
    <BaseURL>audio/mp4a/</BaseURL>
    <Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" startWithSAP="1" bandwidth="34881">
     <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-    <SegmentTemplate timescale="48000" media="1second/tears_of_steel_1080p_audio_32k_dash_track1_1second_$Number$.mp4?t=$Time$" startNumber="61" duration="47104" initialization="1second/tears_of_steel_1080p_audio_32k_dash_track1_1second_init.mp4?t=$Time$" presentationTimeOffset="2880000"/>
+    <SegmentTemplate timescale="48000" media="1second/tears_of_steel_1080p_audio_32k_dash_track1_1second_$Number$.mp4" startNumber="61" duration="47104" initialization="1second/tears_of_steel_1080p_audio_32k_dash_track1_1second_init.mp4" presentationTimeOffset="2880000"/>
    </Representation>
   </AdaptationSet>
  </Period>
@@ -51,17 +51,17 @@
    <AdaptationSet id="1" segmentAlignment="true" group="1" maxWidth="1920" maxHeight="1080" maxFrameRate="24" par="16:9" lang="eng">
    <BaseURL>video/h264/</BaseURL>
    <Representation id="1" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="999120">
-    <SegmentTemplate timescale="12288" media="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="24576" initialization="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="1474560"/>
+    <SegmentTemplate timescale="12288" media="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="24576" initialization="1000k/2second/tears_of_steel_1080p_1000k_h264_dash_track1_init.mp4" presentationTimeOffset="1474560"/>
    </Representation>
    <Representation id="2" mimeType="video/mp4" codecs="avc1.640028" width="1920" height="1080" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="2003095">
-    <SegmentTemplate timescale="12288" media="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="24576" initialization="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="1474560"/>
+    <SegmentTemplate timescale="12288" media="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_$Number$.m4s?t=$Time$" startNumber="61" duration="24576" initialization="2000k/2second/tears_of_steel_1080p_2000k_h264_dash_track1_init.mp4" presentationTimeOffset="1474560"/>
    </Representation>
   </AdaptationSet>
    <AdaptationSet id="2" segmentAlignment="true" lang="eng">
    <BaseURL>audio/mp4a/</BaseURL>
    <Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" startWithSAP="1" bandwidth="34189">
     <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-    <SegmentTemplate timescale="48000" media="2second/tears_of_steel_1080p_audio_32k_dash_track1_$Number$.mp4?t=$Time$" startNumber="61" duration="95232" initialization="2second/tears_of_steel_1080p_audio_32k_dash_track1_init.mp4?t=$Time$" presentationTimeOffset="5760000"/>
+    <SegmentTemplate timescale="48000" media="2second/tears_of_steel_1080p_audio_32k_dash_track1_$Number$.mp4" startNumber="61" duration="95232" initialization="2second/tears_of_steel_1080p_audio_32k_dash_track1_init.mp4" presentationTimeOffset="5760000"/>
    </Representation>
   </AdaptationSet>
  </Period>
