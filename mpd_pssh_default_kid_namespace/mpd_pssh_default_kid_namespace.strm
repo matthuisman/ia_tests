@@ -1,4 +1,6 @@
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://widevine-proxy.appspot.com/proxy||R{SSM}|
 https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_pssh_default_kid_namespace/mpd_pssh_default_kid_namespace.mpd
