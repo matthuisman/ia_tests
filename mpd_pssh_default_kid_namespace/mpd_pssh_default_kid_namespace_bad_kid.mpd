@@ -4,7 +4,7 @@
   <BaseURL>https://storage.googleapis.com/wvmedia/cenc/h264/tears/</BaseURL>
   <Period id="0">
     <AdaptationSet id="0" contentType="audio" lang="en">
-        <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:_="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" _:default_KID="60303030-3030-3030-3030-303030303030"/>
+        <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:_="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" _:default_KID="0894c7c8719b28a0"/>
         <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
           <pssh xmlns="urn:mpeg:cenc:2013">AAAAR3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACcIARIBMBoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoFQVVESU8=</pssh>
         </ContentProtection>
@@ -17,7 +17,7 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="856" frameRate="12288/512" par="38:17">
-        <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:_="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" _:default_KID="60303030-3030-3030-3030-303030303030"/>
+        <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:_="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" _:default_KID="0894c7c8719b28a0"/>
         <ContentProtection xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
           <pssh xmlns="urn:mpeg:cenc:2013">AAAARHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACQIARIBNRoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoCU0Q=</pssh>
         </ContentProtection>

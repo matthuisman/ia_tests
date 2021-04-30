@@ -1,0 +1,4 @@
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://cdn.theoplayer.com/video/elephants-dream/playlist-single-audio.m3u8
