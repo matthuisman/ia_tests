@@ -1,0 +1,4 @@
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://raw.githubusercontent.com/matthuisman/ia_tests/master/mpd_start_number/mpd_start_number.mpd?test=123&start_seq=$START_NUMBER$
