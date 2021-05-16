@@ -1,4 +1,5 @@
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://bit.ly/3wccSXt?test=123&start_seq=$START_NUMBER$
+#$START_NUMBER$ actually breaks the stream as causes partial update - just use to check template being replaced
+https://bit.ly/3og8wvE?test=123&start_seq=$START_NUMBER$
