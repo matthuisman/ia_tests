@@ -15,10 +15,12 @@
             <Representation id="540_1200000" bandwidth="1200000" width="960" height="540" frameRate="25"/>
             <Representation id="720_2400000" bandwidth="2400000" width="1280" height="720" frameRate="25"/>
             <Representation id="1080_4800000" bandwidth="4800000" width="1920" height="1080" frameRate="25"/>
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="3"/>
         </AdaptationSet>
         <AdaptationSet id="3" group="2" mimeType="video/mp4" codecs="avc1.42c00d">
             <SegmentTemplate media="../video/$RepresentationID$/dash/segment_$Number$.m4s" initialization="../video/$RepresentationID$/dash/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
             <Representation id="180_250000" bandwidth="250000" width="320" height="180" frameRate="25"/>
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2"/>
         </AdaptationSet>
     </Period>
 </MPD>
