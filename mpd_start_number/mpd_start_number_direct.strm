@@ -1,0 +1,5 @@
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#$START_NUMBER$ actually breaks the stream as causes partial update - just use to check template being replaced
+http://livesim.dashif.org/livesim/sts_1621152785/sid_0a1322b8/segtimeline_1/testpic_2s/Manifest.mpd?start_seq=$START_NUMBER$
