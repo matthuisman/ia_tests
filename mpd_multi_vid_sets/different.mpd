@@ -7,7 +7,7 @@
             <SegmentTemplate media="../audio/$RepresentationID$/dash/segment_$Number$.m4s" initialization="../audio/$RepresentationID$/dash/init.mp4" duration="191472" startNumber="0" timescale="48000"/>
             <Representation id="1_stereo_128000" bandwidth="128000" audioSamplingRate="48000"/>
         </AdaptationSet>
-        <AdaptationSet mimeType="video/mp4" codecs="avc1.42c00d">
+        <AdaptationSet id="2" mimeType="video/mp4" codecs="avc1.42c00d">
             <BaseURL>https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/</BaseURL>
             <SegmentTemplate media="../video/$RepresentationID$/dash/segment_$Number$.m4s" initialization="../video/$RepresentationID$/dash/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
             <Representation id="180_250000" bandwidth="250000" width="320" height="180" frameRate="25"/>
@@ -15,8 +15,9 @@
             <Representation id="360_800000" bandwidth="800000" width="640" height="360" frameRate="25"/>
             <Representation id="540_1200000" bandwidth="1200000" width="960" height="540" frameRate="25"/>
             <Representation id="720_2400000" bandwidth="2400000" width="1280" height="720" frameRate="25"/>
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="3"/>
         </AdaptationSet>
-        <AdaptationSet mimeType="video/mp4" codecs="avc1.42c00d">
+        <AdaptationSet id="3" mimeType="video/mp4" codecs="avc1.42c00d">
             <BaseURL>https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/</BaseURL>
             <SegmentTemplate media="../video/$RepresentationID$/cenc_dash/segment_$Number$.m4s" initialization="../video/$RepresentationID$/cenc_dash/init.mp4" duration="4000" startNumber="0" timescale="1000"/>
             <Representation id="1080_4800000" bandwidth="4800000" width="1920" height="1080" frameRate="25"/>
@@ -24,6 +25,7 @@
             <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
                 <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAW3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADsIARIQ62dqu8s0Xpa7z2FmMPGj2hoNd2lkZXZpbmVfdGVzdCIQZmtqM2xqYVNkZmFsa3IzaioCSEQyAA==</cenc:pssh>
             </ContentProtection>
+            <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2"/>
         </AdaptationSet>
     </Period>
 </MPD>
