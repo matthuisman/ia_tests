@@ -10,10 +10,6 @@
         <AdaptationSet id="2" mimeType="video/mp4" codecs="avc1.42c00d">
             <BaseURL>https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/</BaseURL>
             <SegmentTemplate media="../video/$RepresentationID$/dash/segment_$Number$.m4s" initialization="../video/$RepresentationID$/dash/init.mp4" duration="100000" startNumber="0" timescale="25000"/>
-            <Representation id="180_250000" bandwidth="250000" width="320" height="180" frameRate="25"/>
-            <Representation id="270_400000" bandwidth="400000" width="480" height="270" frameRate="25"/>
-            <Representation id="360_800000" bandwidth="800000" width="640" height="360" frameRate="25"/>
-            <Representation id="540_1200000" bandwidth="1200000" width="960" height="540" frameRate="25"/>
             <Representation id="720_2400000" bandwidth="2400000" width="1280" height="720" frameRate="25"/>
             <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="3"/>
         </AdaptationSet>
