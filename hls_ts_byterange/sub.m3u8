@@ -4,9 +4,6 @@
 #EXT-X-DISCONTINUITY-SEQUENCE:0
 #EXT-X-MEDIA-SEQUENCE:0
 #EXTINF:6,
-#EXT-X-BYTERANGE:400628@0
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ts_byterange/IWON03-013-v4.ts
-#EXTINF:6,
 #EXT-X-BYTERANGE:493500@400628
 https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ts_byterange/IWON03-013-v4.ts
 #EXTINF:6,
