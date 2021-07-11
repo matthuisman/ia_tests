@@ -1,0 +1,5 @@
+#EXTM3U
+#CSM
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=950400,CODECS="avc1.640028,mp4a.40.29",RESOLUTION=512x288
+https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ts_byterange_from_zero/sub.m3u8
