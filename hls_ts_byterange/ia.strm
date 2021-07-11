@@ -1,4 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://csm-e-n7aus.tls1.yospace.com/csm/extlive/sevenprd01,RLIN1.m3u8?appId=7plus&deviceType=android&platformType=app&ppId=44c616d5f57262ed59884ae4707d3d4542646b84d1187b4e13e68fabf698745c&videoType=live&accountId=5650355166001&optinDeviceType=adid&optinAdTracking=1&pc=3356&mstatus=true&vid=6072701855001&yo.hb=5000&pp=csai-app&custParams=rc%25253D66%252526y%25253D2%252526c%25253Db%252526dpc%25253D1045&y=2&c=b&dpc=1045&rc=66
+https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ts_byterange/master.m3u8
