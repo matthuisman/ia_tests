@@ -1,3 +1,0 @@
-#EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=950400,CODECS="avc1.640028,mp4a.40.29",RESOLUTION=512x288
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ia_fails/sub.m3u8
