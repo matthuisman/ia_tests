@@ -1,4 +1,4 @@
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://raw.githubusercontent.com/matthuisman/ia_tests/master/hls_ia_fails2/master.m3u8
+https://raw.githubusercontent.com/matthuisman/ia_tests/55d666cf3f08a8c558c21d43ad31dd5314a4ad56/hls_ia_fails2/master.m3u8
