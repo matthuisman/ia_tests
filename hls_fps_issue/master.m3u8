@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:5
+#EXT-UPLYNK-LIVE
+#EXT-X-START:TIME-OFFSET=0.00
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE="AUDIO",GROUP-ID="aac",NAME="unspecified",LANGUAGE="en",AUTOSELECT="YES",DEFAULT="YES"
+#UPLYNK-MEDIA0:960x540x30,main-31,2x48000
+#UPLYNK-MEDIA0:1280x720x60,main-32,2x48000
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,RESOLUTION=1280x720,BANDWIDTH=61482,CODECS="avc1.4d0020",URI="http://127.0.0.1:52103/https://content-ausw1-ur-dtci1.uplynk.com/event/5bdb823b87e44d0dade1b497851cdcf7/ifo.m3u8?oid=d09b16c953aa40c98dd8c513526aca5a&ad=espn_live_en&ad.vast3=1&ad.vid=8b316fb5-1d85-4f63-8c6d-6a3901eb9b37&ad.tfcd=0&ad.adUnit=/espn3/espnapp/web&ad.pp=espn-core-ssai&ad.vip=74.118.60.67&ad.ppid=&ad.description_url=null&ss_req=1&ad.ssss=vdms&ad.hl=en&ad.npa=0&ad.msid=null&ad.an=espnapp&ad.same_scor=1&ad.pod=enabled&ad.mridx=enabled&ad.backfill=1&ad.skip_vpaid=1&ad.cust_params=chan=espn3%26authp=null%26nlsnAppID=null%26nlsnDevGrp=devgrp%2CUNWN%26vdm=live%26devOS=null%26devType=null%26plt=androidtv%26swid=%26unid=null%26isDnt=0%26isAutoplay=0%26isMute=0%26vps=null%26stp=vdms%26hip=ef3a4d3c01dea7f1f16b213992589ee2ad4a1fa0fad88d87e640b79b85849fb8%26lang=en%26ip=74.118.60.67&eid=a114714279&ct=e&tc=1&exp=1629077541&rn=1422675893&linearv=4&ptid=ESPN3_Events_VDMS&euid=ESPN3_VDMS&windowDur=32&targetDur=5&sig=3380ecfd91ef46aabb5980342426bc1cc3e3d5648fa91c0ba3d76d24a55f8033&pbs=689a481d33a14ea79979706261664e60"
+#UPLYNK-MEDIA0:1280x720x60,high-32,2x48000
+#EXT-X-STREAM-INF:PROGRAM-ID=1,RESOLUTION=1280x720,BANDWIDTH=9178218,CODECS="mp4a.40.5,avc1.640020",FRAME-RATE=30.000,AUDIO="aac",AVERAGE-BANDWIDTH=7158800
+sub.m3u8
+#UPLYNK-MEDIA0:1280x720x60,high-32,2x48000
+#UPLYNK-MEDIA0:256x144x15,main-12,2x48000
+#UPLYNK-MEDIA0:416x234x30,main-13,2x48000
+#UPLYNK-MEDIA0:640x360x30,main-30,2x48000

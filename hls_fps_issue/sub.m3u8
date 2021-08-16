@@ -1,0 +1,59 @@
+#EXTM3U
+#EXT-X-VERSION:5
+#EXT-X-MEDIA-SEQUENCE:33
+#EXT-X-TARGETDURATION:5
+#UPLYNK-SEGMENT: 196b7cb4a7784f06aacb7a871711afd4,00000001,segment
+#UPLYNK-KEY:https://content-ausw1-ur-dtci1.uplynk.com/check?b=196b7cb4a7784f06aacb7a871711afd4&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000001
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000001.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000002
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000002.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000003
+#UPLYNK-SEGMENT: 196b7cb4a7784f06aacb7a871711afd4,00000000,segment
+#UPLYNK-KEY:https://content-ausw1-ur-dtci1.uplynk.com/check?b=196b7cb4a7784f06aacb7a871711afd4&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60
+#EXT-X-DISCONTINUITY
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000000
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000000.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000001
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000001.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000002
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000002.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000003
+#UPLYNK-SEGMENT: 196b7cb4a7784f06aacb7a871711afd4,00000000,segment
+#UPLYNK-KEY:https://content-ausw1-ur-dtci1.uplynk.com/check?b=196b7cb4a7784f06aacb7a871711afd4&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60
+#EXT-X-DISCONTINUITY
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000000
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000000.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000001
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000001.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000002
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000002.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000003
+#EXTINF:1.8773,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000003.ts
+#UPLYNK-SEGMENT: 196b7cb4a7784f06aacb7a871711afd4,00000000,segment
+#UPLYNK-KEY:https://content-ausw1-ur-dtci1.uplynk.com/check?b=196b7cb4a7784f06aacb7a871711afd4&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60
+#EXT-X-DISCONTINUITY
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000000
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000000.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000001
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000001.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000002
+#EXTINF:2.0480,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000002.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://content-ausw1-ur-dtci1.uplynk.com/check2?b=196b7cb4a7784f06aacb7a871711afd4&v=5bdb823b87e44d0dade1b497851cdcf7&r=f&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60",IV=0x00000000000000000000000000000003
+#EXTINF:1.8773,
+https://x-live-espn-stgec.uplynk.com/auso/slices/196/d09b16c953aa40c98dd8c513526aca5a/196b7cb4a7784f06aacb7a871711afd4/F00000003.ts
+#UPLYNK-SEGMENT: 196b7cb4a7784f06aacb7a871711afd4,00000000,segment
+#UPLYNK-KEY:https://content-ausw1-ur-dtci1.uplynk.com/check?b=196b7cb4a7784f06aacb7a871711afd4&e=5bdb823b87e44d0dade1b497851cdcf7&pbs=689a481d33a14ea79979706261664e60
+#EXT-X-ENDLIST
