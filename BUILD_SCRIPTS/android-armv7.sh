@@ -2,30 +2,43 @@
 #Ubuntu 16.04 LTS
 
 version=${1,,}
+commit=${2,,}
 
 if [[ $version == "leia" ]]; then
     kodi_branch="Leia"
+    ia_branch="Leia"
     ndk_ver="r18b"
 elif [[ $version == "matrix" ]]; then
     kodi_branch="Matrix"
+    ia_branch="Matrix"
     ndk_ver="r20b"
 elif [[ $version == "nexus" ]]; then
-    kodi_branch="Nexus"
+    kodi_branch="Matrix"
+    ia_branch="Nexus"
     ndk_ver="r20b"
 else
     echo "Version required (leia, matrix, nexus)"
     exit
 fi
 
-zip_name=android-armv7-$version.zip
-
 cd $HOME
+
+rm -rf inputstream.adaptive
+
+### ADD-ON SOURCE ###
+git clone https://github.com/xbmc/inputstream.adaptive $HOME/inputstream.adaptive
+cd $HOME/inputstream.adaptive
+if [ -z "$commit" ]; then
+    git checkout ia_branch
+else
+    git checkout $commit
+fi
+zip_name=android-armv7-$(git describe --always).zip
+rm -r $zip_name
 
 rm -rf kodi
 rm -rf tools
 rm -rf .android
-rm -rf inputstream.adaptive
-rm -r $zip_name
 
 apt-get update && apt-get -y update
 apt install -y --no-install-recommends build-essential git cmake unzip aria2 default-jdk python3
@@ -37,8 +50,8 @@ aria2c -x 4 -s 4 https://dl.google.com/android/repository/android-ndk-$ndk_ver-l
 aria2c -x 4 -s 4 https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip
 
 mkdir -p $HOME/tools/android-sdk
-unzip commandlinetools-linux*.zip -d $HOME/tools/android-sdk && rm $HOME/commandlinetools-linux*.zip
-unzip android-ndk-*.zip -d $HOME/tools && mv $HOME/tools/android-ndk-* $HOME/tools/android-ndk && rm android-ndk-*.zip
+unzip commandlinetools-linux*.zip -o -d $HOME/tools/android-sdk && rm $HOME/commandlinetools-linux*.zip
+unzip android-ndk-*.zip -o -d $HOME/tools && mv $HOME/tools/android-ndk-* $HOME/tools/android-ndk && rm android-ndk-*.zip
 
 cd $HOME/tools/android-sdk/tools/bin
 touch ../android
@@ -55,9 +68,6 @@ git clone https://github.com/xbmc/xbmc --branch $kodi_branch --depth 1 $HOME/kod
 cd $HOME/kodi/tools/depends
 ./bootstrap
 ./configure --host=arm-linux-androideabi --with-ndk-api=21 --with-sdk-path=$HOME/tools/android-sdk --with-ndk-path=$HOME/tools/android-ndk --with-toolchain=$toolchain --disable-debug --prefix=$HOME/tools/xbmc-depends
-
-### ADD-ON SOURCE ###
-git clone https://github.com/xbmc/inputstream.adaptive --branch $kodi_branch --depth 1 $HOME/inputstream.adaptive
 
 ### Clean ###
 cd $HOME/kodi/cmake/addons && (git clean -xfd || rm -rf CMakeCache.txt CMakeFiles cmake_install.cmake build/*)
