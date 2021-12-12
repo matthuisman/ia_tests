@@ -83,8 +83,11 @@ if [[ $KODI_VERSION == "leia" ]]; then
 elif [[ $KODI_VERSION == "matrix" ]]; then
     KODI_BRANCH="Matrix"
     NDK_VER="r20b"
+elif [[ $KODI_VERSION == "nexus" ]]; then
+    KODI_BRANCH="Nexus"
+    NDK_VER="r20b"
 else
-    echo "Version required (leia or matrix)"
+    echo "Version required (leia, matrix, nexus)"
     exit 1
 fi
 

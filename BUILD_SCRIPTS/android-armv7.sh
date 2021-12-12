@@ -9,8 +9,11 @@ if [[ $version == "leia" ]]; then
 elif [[ $version == "matrix" ]]; then
     kodi_branch="Matrix"
     ndk_ver="r20b"
+elif [[ $version == "nexus" ]]; then
+    kodi_branch="Nexus"
+    ndk_ver="r20b"
 else
-    echo "Version required (leia or matrix)"
+    echo "Version required (leia, matrix, nexus)"
     exit
 fi
 
